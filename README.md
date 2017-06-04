@@ -14,7 +14,7 @@ File Breakdown:
       #File: garbage.py - This script runs as part of a polling job of your choice, or triggered as a single action to read back the 
       current state of the garbage can. i.e. It is in its proper place or not.
       #Date: 06.02.2017
-      #dovVer: 1.0
+      #docVer: 1.0
       #Python Version: 2.7.9
 
       #Notes: This project uses an ultra sonic sensor to measure the distance between the wall and the garbage cans. In my case my garbage 
@@ -34,7 +34,7 @@ File Breakdown:
       #File: recycle.py - This script runs as part of a polling job of your choice, or triggered as a single action to read back the 
       current state of the recycle can. i.e. It is in its proper place or not.
       #Date: 06.02.2017
-      #dovVer: 1.0
+      #docVer: 1.0
       #Python Version: 2.7.9
 
       #Notes: This project uses an ultra sonic sensor to measure the distance between the wall and the recycle can. In my case my recycle 
@@ -54,7 +54,7 @@ File Breakdown:
       #File: smsModule.py - SMS Outbound API trigger using Aspect/Voxeo SMS staging API. This module was built to be used from within 
       other Python scripts to deliver context based messages.
       #Date: 06.02.2017
-      #dovVer: 1.0
+      #docVer: 1.0
       #Python Version: 2.7.9
 
       #Notes: The defined module receives a single text input. There for an example of this input from another python script would look 
@@ -81,7 +81,7 @@ smsOutbound.py
       #Project: HALpi
       #File: smsOutbound.py - SMS Outbound API trigger using Aspect/Voxeo SMS staging API
       #Date: 06.02.2017
-      #dovVer: 1.0
+      #docVer: 1.0
       #Python Version: 2.7.9
 
       #Notes: You need an Aspect Evolution account with outbound SMS anabled in order to use this API. Once you ahve an account then 
@@ -96,7 +96,7 @@ smsOutbound.py
       #File: tempHumidity.py - The DHT11 sensor is used to measure the current temprature and humidity.
       #Dependencies: dht11.py - Author: szazo --> dht11 python module https://github.com/szazo/DHT11_Python.git.
       #Date: 06.02.2017
-      #dovVer: 1.0
+      #docVer: 1.0
       #Python Version: 2.7.9
 
       #Resources: Personal thanks goes out to szazo for his dht11 python module https://github.com/szazo/DHT11_Python.git
