@@ -1,5 +1,5 @@
 # HALpi
-This repo has several automation sensor packages built on the Raspberry Pi 3. All dependencies are included with the exception of Wiring Pi that need to be added seperately if you want to use LCD/displays with your project http://wiringpi.com/download-and-install/. Also, if you want to use Apple Home Kit as the desired unified framework the HAP-nodejs community can enable the bridge between sensors and automation. A good channel to bootstrap you project is https://www.youtube.com/channel/UC3AGxC2YOkov8pIchTHRqQw/featured
+This repo has several automation sensor packages built on the Raspberry Pi 3. All dependencies are included with the exception of Wiring Pi which will need to be added seperately if you want to use LCD/displays with your project http://wiringpi.com/download-and-install/. Also, if you want to use Apple Home Kit as the desired unified framework the HAP-nodejs community can enable the bridge between sensors and automation. A good channel to bootstrap you project is https://www.youtube.com/channel/UC3AGxC2YOkov8pIchTHRqQw/featured
 
   - Author: Jason E Sajovic 
   - Twitter: @JasonSajovic 
