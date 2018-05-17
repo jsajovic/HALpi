@@ -19,7 +19,7 @@ import sys
 #------ Static Parameters ----------
 #These parameters will not change as long as you are using the same evolution account. the SMSapiURL is pointing to the staging SMS gateway. If this were a production application then you woudl point it $
 
-evoUserName='jsajovic'
+evoUserName='' #Enter Aspect Evolution user name inbetween ticks
 evoPassword=sys.argv[2]
 SMSapiURL='http://api.messaging.staging.voxeo.net/1.0/messaging'
 
@@ -31,7 +31,10 @@ SMSapiURL='http://api.messaging.staging.voxeo.net/1.0/messaging'
 #An example of this on the command line is: sudo python smsOutbound.py 'this is a great example of how to use arguements' 'password
 #make sure you include the ticks because you are passing strings into your script'
 
-data = ({'botkey':'538449', 'apimethod':'send', 'msg':sys.argv[1], 'user':'14074886978','network':'SMS','from':'14073863891'})
+#botkey is from the empty evolution application you created 
+#user is the number you are sending the SMS to
+#from is the SMS Enabled phone number that you assigned in your Evolution account to the empty application
+data = ({'botkey':'', 'apimethod':'send', 'msg':sys.argv[1], 'user':'','network':'SMS','from':''})
 
 #------ Execute Outbound SMS to Aspect SMS Gateway --------
 SMSout = requests.get(SMSapiURL, params=(data), auth=(evoUserName, evoPassword))
